@@ -5,7 +5,8 @@ typedef struct matrix matrix;
 struct matrix{
   long m;
   long n;
-  long r_n;
+  long m_tiles;
+  long n_tiles;
   double* data;
 };
 

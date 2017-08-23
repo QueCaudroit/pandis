@@ -20,8 +20,6 @@ void Init_pandis(){
   rb_define_method(Matrix, "initialize", initialize_matrix, 1);
   rb_define_method(Matrix, "to_a", to_a_matrix, 0);
   rb_define_method(Matrix, "*", matmul_tiled, 1);
-  rb_define_method(Matrix, "old_matmul", matmul_old, 1);
-
 }
 
 
