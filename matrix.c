@@ -1,7 +1,7 @@
 #include <ruby.h>
 #include <stdio.h>
 #include "matrix.h"
-#include "tiles.h"
+#include "tiled_matmul.h"
 
 #define MAX_DISPLAY 10
 
