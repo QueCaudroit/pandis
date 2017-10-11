@@ -7,5 +7,6 @@ VALUE matmul_tiled(VALUE self, VALUE b);
 void matmul_setup(VALUE self, VALUE other, matrix** c, long* m, long* n, long* k_max, double** data_a, double** data_b, double** data_c);
 void *base_matmul(void* argv);
 void *fill_null(void* argv);
+void *matmul_line(void* arg);
 
 #endif
